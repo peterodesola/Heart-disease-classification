@@ -7,12 +7,12 @@
 - [EXTREME GRADIENT BOOST](#EXTREME-GRADIENT-BOOST)
 - [PROBLEM DEFINITION](#PROBLEM-DEFINITION)
 - [PURPOSE AND RESEARCH QUESTIONS](#PURPOSE-AND-RESEARCH-QUESTIONS)
-- [AIM(S) AND OBJECTIVES](#AIM(S)-AND-OBJECTIVES)
+- [AIM AND OBJECTIVES](#AIM-AND-OBJECTIVES)
 - [PROPOSED ARTEFACT AND SOCIETAL IMPACT](#PROPOSED-ARTEFACT-AND-SOCIETAL-IMPACT)
 - [RESOURCES AND PROJECT IMPLEMENTATION](#RESOURCES-AND-PROJECT-IMPLEMENTATION)
 - [METHODOLOGY](#METHODOLOGY)
    - [Data Collection](#Data-Collection)
-   - [Exploratory data analysis (EDA)](#Exploratory-data-analysis-(EDA))
+   - [Exploratory data analysis](#Exploratory-data-analysis)
    - [Data pre-processing](#Data-pre-processing)
 - [MODEL DEVELOPMENT](#MODEL-DEVELOPMENT)
 - [ALGORITHM SELECTION](#ALGORITHM-SELECTION)
@@ -54,7 +54,7 @@ Uddin et al, 2021 conducted study on ensemble method based multilayer dynamic sy
 In hospitals, most decisions made are based on medical practitioners’ insight and experience when there is knowledge rich information hidden in the datasets or hospital records. Such practice eventually leads to error, unwanted biases, reduction in quality service provision and excessive cost for the patients. It has been proposed to implement a heart disease predictive system using artificial intelligence (AI) which will integrate clinical decision support based on patients’ medical records (datasets). The implementation of this system will reduce medical errors, increase patients’ safety, decrease bias and improve patient’s outcome. As it is to be noted that right heart disease prediction saves life, while wrong prediction takes lives.  Therefore, implementation of heart disease predicting system with well improved accuracy can bring solution to early death and reduction to statistical death rate annually stated by world health organisation. Data mining have a great ability and capability to extract a knowledge rich record that can be used to significantly improve the quality of clinical decisions.
 Several studies had been conducted on implementation of a predictive system with accuracy and a lots of machine algorithms had been used by which they all had a good accuracy, while recommendation on accuracy improvement were emphasized to enhance performance. 
 Many algorithms had been used in the previous studies while improvement of accuracy was still emphasized for a good predictive system to be implemented. This study will make use of Random Forest (weak classifier) and Extreme gradient boosting classifier (strong classifier) to improve the accuracy of random forest classifier because of its ability to support other types of tree ensemble algorithms like Random Forest. Extreme gradient boost classifier would be used as predictive model because of its ability. 
-### EXTREME GRADIENT BOOST (XGBoost) 
+### EXTREME GRADIENT BOOST
 Extreme gradient boost is a supervised classifier that implement gradient boosted decision trees that is designed for speed and better performance while Random Forest is a machine learning algorithm used for both classification and regression and function by collection of trees and each ensembled trees comprise of data sample extracted through training set with replacement called bootstrap sample. XGBoost had been used in so many supervised classification problems in which it came out with an impressive performance.
 #### FEATURES OF XGBOOST
 -	It can combine several optimisation techniques to achieve perfect result in a short span of time. 
@@ -76,7 +76,7 @@ In the proposed study, machine learning method would be implemented for heart di
 -	How reliable and accurate is a heart disease predictive system using the patient’s risk factors or medical records for prediction?
 -	How can the accuracy of heart disease predicting system be improved with machine learning algorithms using patient’s risk factor/historical records?
 -	Does feature reduction/ feature selection have any significant changes in the model performance?
-## AIM(S) AND OBJECTIVES
+## AIM AND OBJECTIVES
 ## AIM
 This study is aimed at building an improved, accurate heart disease predictive system by using the hidden knowledge associated with various patient’s historical records (dataset) collected.
 ## OBJECTIVES
@@ -121,7 +121,7 @@ The heart disease prediction study is proposed to be a quantitative research met
 ## Data Collection
 Data collection was through secondary source because of limited time frame for the execution of the thesis. The dataset was dated from 1988 and was collected from four data base sources which are the Cleveland, Switzerland, Long Beach V and Hungary. The original dataset contains 76 attributes which include the target variable, the 76 attributes was reduced to 14 by categorising the relevant from the irrelevant attributes using feature selection (John et al, 1994.). While target variable indicates the patients with cardiovascular disease and those that has no heart disease.
 The features or risk factors are collected from hospital database based on patients’ medical records. The dataset consists of 14 columns (features) and 1025 rows (observation) which are stored in csv format for machine learning. For this study, seven algorithms will be implemented while the best three algorithms with the best performance will be ensembled for development of an improved heart disease predicting system.
-## Exploratory data analysis (EDA)
+## Exploratory data analysis
 Exploratory data analysis is a phase in machine learning that helps data analysts or data scientists to carry out investigation on a data, for easy detection of dataset patterns, and to identify anomalies, to spot hypothesis and to observe assumptions through the help of statistical summaries and graphical visualisation. Exploratory data analysis gives better insight of the dataset (Greiff 2000).
 The types of datasets were checked to know the data type of the attributes we are dealing with, and to address them according to their datatypes or nature.
 
