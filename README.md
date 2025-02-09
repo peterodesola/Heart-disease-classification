@@ -2,7 +2,7 @@
 ## Table of Contents
 - [INTRODUCTION](#INTRODUCTION)
 - [BACKGROUND](#BACKGROUND)
-- [RELATED_WORKS](#RELATED_WORKS)
+- [RELATED WORKS](#RELATED_WORKS)
 - [JUSTIFICATION](#JUSTIFICATION)
 - [EXTREME GRADIENT BOOST (XGBoost)](#EXTREME_GRADIENT_BOOST_(XGBoost))
 - [PROBLEM DEFINITION](#PROBLEM_DEFINITION)
@@ -56,7 +56,7 @@ Several studies had been conducted on implementation of a predictive system with
 Many algorithms had been used in the previous studies while improvement of accuracy was still emphasized for a good predictive system to be implemented. This study will make use of Random Forest (weak classifier) and Extreme gradient boosting classifier (strong classifier) to improve the accuracy of random forest classifier because of its ability to support other types of tree ensemble algorithms like Random Forest. Extreme gradient boost classifier would be used as predictive model because of its ability. 
 ### EXTREME GRADIENT BOOST (XGBoost) 
 Extreme gradient boost is a supervised classifier that implement gradient boosted decision trees that is designed for speed and better performance while Random Forest is a machine learning algorithm used for both classification and regression and function by collection of trees and each ensembled trees comprise of data sample extracted through training set with replacement called bootstrap sample. XGBoost had been used in so many supervised classification problems in which it came out with an impressive performance.
-####FEATURES OF XGBOOST
+#### FEATURES OF XGBOOST
 -	It can combine several optimisation techniques to achieve perfect result in a short span of time. 
 -	It can avoid overfitting with a well-managed regularisation ability. 
 -	XGBoost build a tree at a time so each data relating to the decision tree is taken to account data filling takes place in case of missing data, which helps in the implementation of gradient algorithms in combination with decision trees algorithm for better accuracy.
