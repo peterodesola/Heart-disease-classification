@@ -1,6 +1,6 @@
 # Heart-disease-classification using Machine Learning (Ensemble method)
 ## Table of Contents
-- [INTRODUCTION](INTRODUCTION)
+- [INTRODUCTION](#INTRODUCTION)
 - [BACKGROUND](BACKGROUND)
 - [RELATED_WORKS](RELATED_WORKS)
 - [JUSTIFICATION](JUSTIFICATION)
